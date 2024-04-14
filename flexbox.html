@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flexbox practice</title>
+    <style>
+        div{
+            /* margin-bottom: 10px; */
+        }
+    </style>
+</head>
+<body style="padding-bottom: 1000px;">
+    <!-- container to flexbox -->
+    <!-- Diff btn display:grid & display:flex -->
+    <div style="display: flex;flex-direction: row;">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: lightpink;">div 2</div>
+    </div>
+
+    <div style="display: flex;flex-direction: row;">
+        <div style="background-color: lightblue;width: 100px;">100px</div>
+        <div style="background-color: lightpink;flex: 1;">flex 1
+        </div>
+    </div>
+
+    <div style="display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:gray">
+        <div style="background-color: lightblue; flex: 1;">flex 1</div>
+        <div style="background-color: lightpink;width: 100px;">100px
+        </div>
+        <div style="background-color: lightblue;flex: 2;">flex 2
+        </div>
+    </div>
+
+        <div style="display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color:gray">
+            <div style="background-color: lightblue;width: 100px;">100px</div>
+            <div style="background-color: lightpink;width: 100px;">100px</div>
+            <div style="background-color: lightblue;width: 100px;">100px</div>
+        </div>
+        
+    <div style="display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 30px;
+                height: 70px;
+                border-width: 1px;
+                border-style: solid;
+                border-color:gray">
+        <div style="background-color: lightblue;width: 100px;">100px</div>
+        <div style="background-color: lightpink;width: 100px;">100px</div>
+        <div style="background-color: lightblue;width: 100px;">100px</div>
+    </div>
+
+    <div style="display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 30px;
+                    height: 70px;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color:gray">
+        <div style="background-color: lightblue;width: 100px;">100px</div>
+        <div style="background-color: lightpink;width: 100px;">100px</div>
+        <div style="background-color: lightblue;width: 100px;">100px</div>
+    </div>
+
+</body>
+</html>
